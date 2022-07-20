@@ -1,0 +1,32 @@
+body {
+  margin: 50px 25%;
+  width: 80vw;
+  background: url(../css/gory_tuman_pejzazh_321288_1920x1080.jpg);
+  min-height: 100vh;
+  min-width: 475px;
+  background-size: cover;
+  line-height: 2.2rem;
+  background-repeat: no-repeat;
+}
+
+a {
+  font-size: 1.2rem;
+  color: rgb(53, 54, 54);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+  transform: scale(1.02);
+
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}

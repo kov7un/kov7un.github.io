@@ -1,0 +1,76 @@
+#car {
+  position: absolute;
+  width: 100px;
+  bottom: 170px;
+  left: 170px;
+  animation-name: drive;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+
+}
+
+#road {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  height: 1000px;
+}
+
+
+@keyframes drive {
+  0% {
+    left: 170px;
+    bottom: 170px;
+    transform: rotate(0deg);
+  }
+
+  23% {
+    left: 870px;
+    bottom: 170px;
+    transform: rotate(0deg);
+  }
+
+  25% {
+    left: 870px;
+    bottom: 170px;
+    transform: rotate(-90deg);
+  }
+
+  48% {
+    left: 870px;
+    bottom: 880px;
+    transform: rotate(-90deg);
+  }
+
+  50% {
+    left: 870px;
+    bottom: 880px;
+    transform: rotate(-180deg);
+  }
+
+  72% {
+    left: 200px;
+    bottom: 870px;
+    transform: rotate(-180deg);
+  }
+
+  75% {
+    left: 170px;
+    bottom: 870px;
+    transform: rotate(-270deg);
+  }
+
+  98% {
+    left: 170px;
+    bottom: 200px;
+    transform: rotate(-270deg);
+  }
+
+
+  100% {
+    left: 170px;
+    bottom: 170px;
+    transform: rotate(-360deg);
+  }
+}

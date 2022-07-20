@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+}
+
+h1 {
+  background-image: linear-gradient(to right bottom, #fb0000, #ff003c, #ff0067, #ff0092, #ff00bc, #f100cf, #dd00e5, #bf00fb, #aa00fc, #9200fd, #7700fe, #5207ff);
+  margin: auto;
+  width: 85vw;
+  max-width: 1920px;
+  color: #fff;
+}
+
+
+/* =========Container========== */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  width: 85vw;
+  max-width: 1920px;
+  min-width: 480px;
+  margin: auto;
+  margin-bottom: 3px;
+  border: 1px solid rgb(127, 127, 127);
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/* ==========Product=========== */
+.product_wiew {
+  min-width: 120px;
+  max-width: 185px;
+  margin-left: 20px;
+}
+
+.product_phofo {
+  width: 120px;
+  transition: 0.5s;
+}
+
+
+.container:hover .product_phofo {
+  width: 150px;
+  transition: 0.5s;
+}
+
+.product_info {
+  text-align: justify;
+  margin: 0px 15px 20px 30px;
+
+}
+
+/* **********buttons*********** */
+
+
+
+/* ==========Price============ */
+.products_price {
+  font-family: 'Ubuntu', sans-serif;
+  width: 400px;
+  text-align: center;
+  padding-right: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button {
+  width: 200px;
+  height: 35px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 151, 32);
+  border-radius: 5px;
+  border: none;
+  margin-top: 9px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.ask {
+  background-color: #fff;
+  color: black;
+  padding-left: 45px;
+  font-weight: 800;
+}
+
+
+h2 {
+  color: rgb(255, 151, 32);
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+  padding-right: 50px;
+
+}
+
+.Buy {
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.Buy:hover {
+  background-color: rgb(3, 169, 3);
+  transition: 0.5s;
+}
+
+.container:hover .Buy {
+  background-color: rgb(3, 169, 3);
+  transition: 0.5s;
+}
+
+.likes {
+  background-color: #fff;
+  transition: 0.5s;
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.likes:hover {
+  color: red;
+  transition: 0.5;
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.container:hover .likes {
+  color: red;
+  transition: 0.5s
+}
