@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 500px;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 1.5rem;
+}
+
+.wifi {
+  font-weight: 600;
+  font-size: 30px;
+
+}
+
+input:valid {
+  background: rgb(74, 182, 74);
+}
+
+input:invalid {
+  background: rgb(253, 200, 200);
+}
+
+.btn {
+  font-size: 20px;
+}
+
+.mb-3 {
+  font-style: italic;
+}
+
+.fa-solid {
+  color: rgb(0, 199, 0);
+  font-size: 55px;
+  padding: 15px;
+}
+
+.form-check-input:valid {
+  background-color: rgb(0, 0, 0);
+}
+
+@media (min-width:450px) {}
