@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+  <title>Game</title>
+  <link rel="stylesheet" href="./assets main/css main/style.css">
+  <script src="./assets main/js main/app.js"></script>
+</head>
+
+<body>
+  <h1>Угадай число от 1 до 100</h1>
+  <h2>Осталось попыток : </h2>
+  <img src="./assets main/img main/news.jpg" alt="">
+  <br>
+  <label for="numberInput">Ваш вариант :</label>
+  <input type="number" class="form-control" id="numberInput" value="50">
+  <button class="btn" onclick="game()"> Дать ответ</button>
+  <h4><output id="wrong"></output></h4>
+  <h4><output id="more"></output></h4>
+  <h4><output id="less"></output></h4>
+  <h4 class="text-danger"><output id="right"></output></h4>
+
+
+</body>
+
+</html>
