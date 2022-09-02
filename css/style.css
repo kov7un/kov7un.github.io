@@ -1,32 +1,32 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(183, 219, 250);
+	margin: 0;
+	padding: 0;
+	background-color: rgb(183, 219, 250);
 }
 
 .container {
-  width: 100%;
-  max-width: 80vw;
-  height: 100vh;
-  margin: 120px auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  letter-spacing: 0.1em;
-  line-height: 1.9em;
+	width: 100%;
+	max-width: 80vw;
+	height: 100vh;
+	margin: 120px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	letter-spacing: 0.1em;
+	line-height: 1.9em;
 }
 
 h3 {
-  font-size: 45px;
-  font-weight: 600;
+	font-size: 45px;
+	font-weight: 600;
 }
 
 a {
-  text-decoration: none;
-  font-size: 22px;
-  color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 22px;
+	color: rgb(0, 0, 0);
 }
 
 a:hover {
-  color: #fff;
+	color: #fff;
 }
