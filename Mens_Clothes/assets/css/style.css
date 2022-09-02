@@ -1,0 +1,97 @@
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.container {
+  background-color: rgb(242, 242, 242);
+  text-align: center;
+}
+
+.navbar-brand {
+  color: rgb(0, 0, 0);
+  opacity: 0.3;
+  font-size: 20px;
+}
+
+:hover.navbar-brand {
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+h1 {
+  color: rgb(31, 30, 30);
+}
+
+#gridbox {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr;
+  grid-template-areas: "header header header"
+    "main  main    main"
+    "footer footer footer";
+}
+
+div>img {
+  width: 100%;
+}
+
+img+img {
+  width: 33.1%;
+  margin: 10px 0px;
+}
+
+.component {
+  margin-top: 100px;
+  gap: 73px;
+
+}
+
+#content-box {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 0.2fr;
+  grid-template-areas: "header header header header"
+    "main   main    main   main"
+    "footer footer footer footer";
+}
+
+.btn {
+  background: rgb(132, 132, 132);
+}
+
+:hover.btn {
+  background-color: black;
+  color: white;
+}
+
+span {
+  color: red;
+  text-decoration: line-through;
+}
+
+h4 {
+  color: slategray;
+}
+
+.card {
+  filter: blur(1.5px);
+  width: 100%;
+}
+
+.card:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+  filter: blur(0px);
+}
