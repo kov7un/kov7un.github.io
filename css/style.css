@@ -1,32 +1,33 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(183, 219, 250);
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(to bottom, #c4c4c4, #c2c2cd, #bdc1d7, #b5c1e2, #a9c2ec, #a9c2eb, #a8c1eb, #a8c1ea, #b3bfdf, #babed3, #bebec8, #bebebe);
 }
 
 .container {
-  width: 100%;
-  max-width: 80vw;
-  height: 100vh;
-  margin: 120px auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  letter-spacing: 0.1em;
-  line-height: 1.9em;
+	width: 100%;
+	max-width: 80vw;
+	height: 100vh;
+	margin: 120px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	letter-spacing: 0.2em;
+	line-height: 1.9;
+	font-weight: 300;
 }
 
 h3 {
-  font-size: 45px;
-  font-weight: 600;
+	font-size: 45px;
+	font-weight: 600;
 }
 
 a {
-  text-decoration: none;
-  font-size: 22px;
-  color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 22px;
+	color: rgb(0, 0, 0);
 }
 
 a:hover {
-  color: #fff;
+	color: #fff;
 }

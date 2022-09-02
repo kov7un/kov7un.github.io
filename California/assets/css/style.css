@@ -1,107 +1,107 @@
 a {
-  color: #000000;
-  text-decoration: none;
+	color: #000000;
+	text-decoration: none;
 }
 
 .container {
-  width: 1440px;
-  font-family: 'Inter', sans-serif;
+	width: 1440px;
+	font-family: 'Inter', sans-serif;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 0px;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0px;
 }
 
 .logos {
-  height: 21px;
+	height: 21px;
 }
 
 .header-section {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .header-item {
-  padding: 10px 15px;
-  font-size: 14px;
-  margin-left: 5px;
+	padding: 10px 15px;
+	font-size: 14px;
+	margin-left: 5px;
 }
 
 .header-item:hover {
-  background-color: rgb(242, 250, 251);
-  border-radius: 55px;
+	background-color: rgb(242, 250, 251);
+	border-radius: 55px;
 }
 
 .btn {
-  background-color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255);
 }
 
 .btn:hover {
-  background-color: rgb(242, 250, 251);
+	background-color: rgb(242, 250, 251);
 }
 
 .new {
-  font-size: 58px;
-  line-height: 70px;
-  margin-top: 145px;
-  margin-left: 56px;
-  font-weight: 500;
+	font-size: 58px;
+	line-height: 70px;
+	margin-top: 145px;
+	margin-left: 56px;
+	font-weight: 500;
 }
 
 .test {
-  line-height: 20px;
-  font-size: 16px;
-  font-weight: 400;
-  margin-left: 56px;
-  margin-top: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 56px;
+	margin-top: 20px;
 }
 
 .Explore {
-  font-size: 18px;
-  line-height: 22px;
-  color: #000000;
-  width: 170px;
-  height: 50px;
-  border-radius: 200px;
-  margin-left: 56px;
-  margin-top: 20px;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+	width: 170px;
+	height: 50px;
+	border-radius: 200px;
+	margin-left: 56px;
+	margin-top: 20px;
 }
 
 .main {
-  display: flex;
-  justify-content: space-between;
-  background-color: #DCE5E2;
-  border-radius: 40px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #DCE5E2;
+	border-radius: 40px;
 }
 
 .shop {
-  font-size: 42px;
-  line-height: 52.5px;
-  text-align: center;
-  margin-top: 75px;
+	font-size: 42px;
+	line-height: 52.5px;
+	text-align: center;
+	margin-top: 75px;
 }
 
 .info {
-  font-size: 14px;
-  line-height: 16.8px;
-  margin: 10px 406px;
-  font-weight: 400;
+	font-size: 14px;
+	line-height: 16.8px;
+	margin: 10px 406px;
+	font-weight: 400;
 }
 
 footer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
 }
 
 .laptop {
-  width: 639px;
-  height: 472px;
-  border-radius: 1px solid rgb(108, 106, 106);
+	width: 639px;
+	height: 472px;
+	border-radius: 1px solid rgb(108, 106, 106);
 }
 
 .laptopImg {
-  width: 500px;
+	width: 500px;
 }
