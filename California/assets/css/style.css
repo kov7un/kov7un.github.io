@@ -1,3 +1,49 @@
+/* ```JSON             Основа для снипета для not last child под scss
+"Not last child": {
+        "scope": "scss",
+        "prefix": "nlc",
+        "body": "&:not(:last-child) {\n$0\n}",
+        "description": " :not(:last-child)"
+    },```
+Буду скидывать то, что использую. Может, пригодится! А может это всё лохмачу бабушку)))
+```JSON
+"Column gap": {
+        "scope": "scss",
+        "prefix": "cg",
+        "body": [
+            "column-gap: $0px;"
+        ],
+        "description": "column-gap"
+    },
+    "Row gap": {
+        "scope": "scss",
+        "prefix": "rg",
+        "body": [
+            "row-gap: $0px;"
+        ],
+        "description": "row-gap"
+    },
+```
+```JSON
+"mmr nlc": {
+        "prefix": "mmrnlc",
+        "body": [
+            "&:not(:last-child) {\n\tmargin: 0px $0px 0px 0px;\n}"
+        ],
+        "description": "mmr nlc"
+    },
+"flex wrap wrap": {
+        "prefix": "fww",
+        "body": [
+            "flex-wrap:wrap;"
+        ],
+        "description": "flex-wrap:wrap"
+    },
+``` */
+
+
+
+
 a {
 	color: #000000;
 	text-decoration: none;
@@ -84,10 +130,14 @@ a {
 }
 
 .info {
+	display: block;
+	text-align: end;
 	font-size: 14px;
 	line-height: 16.8px;
-	margin: 10px 406px;
+	margin: 70px 406px 90px 0px;
 	font-weight: 400;
+
+
 }
 
 footer {
@@ -99,9 +149,51 @@ footer {
 .laptop {
 	width: 639px;
 	height: 472px;
-	border-radius: 1px solid rgb(108, 106, 106);
+	border-radius: 45px;
+	-webkit-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+	box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 }
 
 .laptopImg {
-	width: 500px;
+	max-width: 450px;
+}
+
+.laptopIm {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.lapIm {
+	margin-left: 30px;
+}
+
+.phone {
+	height: 472px;
+	border-radius: 45px;
+	-webkit-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+	box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+}
+
+.tabl {
+	height: 472px;
+	border-radius: 45px;
+	-webkit-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+	box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+}
+
+.dur {
+	margin-top: 40px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.watch {
+	height: 472px;
+	border-radius: 45px;
+	-webkit-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+	box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 }

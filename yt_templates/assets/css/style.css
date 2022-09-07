@@ -423,7 +423,7 @@ p {
 	text-align: center;
 }
 
-.process_item {
+.process-item {
 	background: #FFFFFF;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
 	padding: 30px 30px;
@@ -557,16 +557,16 @@ p {
 	display: flex;
 }
 
-.footer_link {
+.footer-link {
 	margin-right: 20px;
 	text-decoration: none;
 }
 
-.footer_link:last-child {
+.footer-link:last-child {
 	margin-right: 0;
 }
 
-.footer_link img {
+.footer-link img {
 	height: 25px;
 }
 

@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.block {
+	--shadow: 0 2px 4px rgba(26, 79, 28, 0.8);
+	height: 100vh;
+	color: #fff;
+	padding-top: 30vh;
+	padding-left: 15vw;
+	position: relative;
+}
+
+.bg {
+	background: #444 url('/Slide_template/assets/img/canyon-1740973_1920.jpg') no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	filter: saturate(90%) brightness(90%);
+}
+
+.title {
+	display: inline-block;
+	font-size: 4vw;
+	text-transform: uppercase;
+	letter-spacing: 1.5vw;
+	border-bottom: 0.4vw solid #fff;
+	text-shadow: var(--shadow);
+}
+
+.title::after {
+	content: '';
+	padding-right: 4vw;
+}
