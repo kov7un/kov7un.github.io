@@ -1,0 +1,22 @@
+body {
+	margin: 1em;
+	padding: 0;
+	background: url('/DZ7/assets/img/oldtimer-1197800_640.jpg') no-repeat;
+	width: 100%;
+}
+
+.title {
+	font-size: 32px;
+	color: rgb(255, 255, 255);
+	margin-left: 15px;
+	margin-top: 55px;
+}
+
+.btn {
+	background-color: red;
+	color: #fff;
+	font-size: 13px;
+	padding: 12px;
+	margin-left: 15px;
+	border: none;
+}

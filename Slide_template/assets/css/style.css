@@ -6,7 +6,7 @@
 
 
 .block {
-	--shadow: 0 2px 4px rgba(26, 79, 28, 0.8);
+	--shadow: 3px 2px 4px rgba(0, 255, 8, 0.8);
 	height: 100vh;
 	color: #fff;
 	padding-top: 30vh;

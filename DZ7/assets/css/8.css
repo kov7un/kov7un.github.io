@@ -1,0 +1,95 @@
+body {
+	font-size: 40px;
+	line-height: 1;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 50px;
+}
+
+/* .block1 {
+	padding: 30px;
+	background-color: rgb(85, 120, 9);
+	display: inline-block;
+}
+
+
+.link {}
+
+
+
+
+
+.link:active {}
+
+.button {
+	border-radius: 8px;
+	padding: 20px 30px;
+	background-color: rgb(246, 226, 51);
+	box-shadow: 0px 5px 0px rgb(53, 70, 20);
+	color: rgb(255, 255, 255);
+	top: 0;
+	position: relative;
+}
+
+.button:hover {
+	background-color: rgb(46, 87, 40);
+}
+
+.button:active {
+	top: 15px;
+	box-shadow: 0px 5px 0px rgb(16, 132, 128);
+}
+
+.link:focus {
+	outline: 10px dotted black;
+}
+
+.link::before {
+	display: inline-block;
+	content: '';
+	background-image: url('../img/black-605334_1280.jpg') cover / no-repeat;
+	height: 10px;
+	width: 10px;
+}
+
+.link::after {
+	background-color: rgb(16, 237, 4);
+	height: 2px;
+	width: 56px;
+	margin: 15px 0px 0px 10px;
+	display: block;
+	content: '';
+} */
+
+.block {
+	background-color: rgb(54, 54, 54);
+	border-radius: 20px;
+	margin: 20px 0px 0px 20px;
+	padding: 45px 75px;
+
+}
+
+.block::after {}
+
+.title {
+	margin: 0 0 40px 0;
+	font-size: 40px;
+	font-weight: 900;
+	color: white;
+}
+
+.title::after {
+	background-color: rgb(16, 237, 4);
+	height: 5px;
+	width: 25%;
+	margin: 25px 0 0 0;
+	content: '';
+	display: block;
+}
+
+p {
+	color: rgb(135, 135, 135);
+}

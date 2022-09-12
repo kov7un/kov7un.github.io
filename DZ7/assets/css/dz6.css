@@ -1,0 +1,34 @@
+.col {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #20511f;
+	text-align-last: center;
+	color: #f30707;
+}
+
+.fon {
+	opacity: 0.5;
+}
+
+.blockkk {
+	display: block;
+	background: #ECF5E4;
+	border-right: 3px solid #cc667f;
+	border-left: 7px solid #b0cd47;
+	border-bottom: 10px solid #3b1b81;
+	border-top: 4px solid #20511f;
+	top: 50px;
+	bottom: 0;
+	width: 5em;
+	margin: 20px;
+}
+
+.rown {
+	border: 3px solid #2e2e2e;
+}
+
+.shad {
+	box-shadow: 5px 5px 3px rgb(252, 147, 164);
+	font-size: 1.5em;
+}

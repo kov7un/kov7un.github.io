@@ -1,0 +1,6 @@
+.container {
+	width: 1200px;
+	height: 700px;
+	margin: 50px;
+	background: rgb(230, 80, 0) url('../img/material.jpeg') 30% 30%;
+}
