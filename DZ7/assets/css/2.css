@@ -1,3 +1,9 @@
+body {
+	width: 1200px;
+	margin: 0;
+	padding: 0;
+}
+
 header {
 	height: 100px;
 	background-color: white;
@@ -8,19 +14,19 @@ main {
 	height: 400px;
 }
 
-
-.pic {
-	display: block;
-	margin-left: 900px;
-	margin-top: -260px;
-
-}
-
 .our {
 	display: block;
 	color: white;
 	margin-left: 200px;
 	padding-top: 60px;
+}
+
+
+.pic {
+	display: block;
+	margin-left: 700px;
+	margin-top: -260px;
+
 }
 
 .nemo {
@@ -29,13 +35,41 @@ main {
 	margin-left: 200px;
 	font-size: 30px;
 	padding-top: 30px;
+	width: 350px;
 }
 
-.icons {
+.pic {
+	display: block;
+	margin-top: -300px;
+	border-radius: 25px;
+	margin-bottom: 150px;
+}
+
+.cards {
 	display: flex;
-	flex-direction: row;
-	gap: 200px;
-	margin-top: 80px;
 	color: white;
-	font-size: 50px;
+	justify-content: space-around;
+	width: 600px;
+	margin-left: 165px;
+}
+
+
+.card {
+	display: flex;
+}
+
+.logo {
+	background-color: white;
+	margin-right: 10px;
+}
+
+.titles {
+	font-size: 30px;
+	color: red;
+	font-weight: 700;
+}
+
+.texxx {
+	font-size: 12px;
+	letter-spacing: 0.1em;
 }

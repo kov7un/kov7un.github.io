@@ -1,49 +1,3 @@
-/* ```JSON             Основа для снипета для not last child под scss
-"Not last child": {
-        "scope": "scss",
-        "prefix": "nlc",
-        "body": "&:not(:last-child) {\n$0\n}",
-        "description": " :not(:last-child)"
-    },```
-Буду скидывать то, что использую. Может, пригодится! А может это всё лохмачу бабушку)))
-```JSON
-"Column gap": {
-        "scope": "scss",
-        "prefix": "cg",
-        "body": [
-            "column-gap: $0px;"
-        ],
-        "description": "column-gap"
-    },
-    "Row gap": {
-        "scope": "scss",
-        "prefix": "rg",
-        "body": [
-            "row-gap: $0px;"
-        ],
-        "description": "row-gap"
-    },
-```
-```JSON
-"mmr nlc": {
-        "prefix": "mmrnlc",
-        "body": [
-            "&:not(:last-child) {\n\tmargin: 0px $0px 0px 0px;\n}"
-        ],
-        "description": "mmr nlc"
-    },
-"flex wrap wrap": {
-        "prefix": "fww",
-        "body": [
-            "flex-wrap:wrap;"
-        ],
-        "description": "flex-wrap:wrap"
-    },
-``` */
-
-
-
-
 a {
 	color: #000000;
 	text-decoration: none;
@@ -73,6 +27,7 @@ a {
 	padding: 10px 15px;
 	font-size: 14px;
 	margin-left: 5px;
+	text-transform: uppercase;
 }
 
 .header-item:hover {
@@ -97,11 +52,16 @@ a {
 }
 
 .test {
-	line-height: 20px;
+	width: 565px;
+	top: 304px;
+	line-height: 19.2px;
 	font-size: 16px;
 	font-weight: 400;
 	margin-left: 56px;
-	margin-top: 20px;
+	margin-top: 39px;
+	text-align: center;
+	font-family: 'Readex Pro', sans-serif;
+
 }
 
 .Explore {
@@ -113,6 +73,13 @@ a {
 	border-radius: 200px;
 	margin-left: 56px;
 	margin-top: 20px;
+	border: 1px solid black;
+}
+
+.expl {
+	text-align: center;
+	align-items: center;
+	margin-right: 10%;
 }
 
 .main {
@@ -130,47 +97,48 @@ a {
 }
 
 .info {
-	display: block;
-	text-align: end;
+	display: inline-block;
 	font-size: 14px;
 	line-height: 16.8px;
-	margin: 70px 406px 90px 0px;
+	margin: 70px 406px 90px 275px;
 	font-weight: 400;
+	text-align: center;
 
 
 }
 
-footer {
+.items {
 	display: flex;
-	flex-wrap: wrap;
 	gap: 5px;
 }
 
 .laptop {
 	width: 639px;
 	height: 472px;
-	border-radius: 45px;
 	-webkit-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 	box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 }
 
 .laptopImg {
-	max-width: 450px;
+	max-height: 350px;
+
 }
 
 .laptopIm {
-	margin-left: 30px;
-	margin-top: 20px;
+	text-align: end;
+	margin-right: 70px;
 }
 
 .lapIm {
-	margin-left: 30px;
+	display: block;
+	width: 192px;
+	margin-left: 250px;
+
 }
 
 .phone {
 	height: 472px;
-	border-radius: 45px;
 	-webkit-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 	box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
@@ -178,22 +146,215 @@ footer {
 
 .tabl {
 	height: 472px;
-	border-radius: 45px;
 	-webkit-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 	box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+}
+
+.lapimg {
+	max-height: 360px;
+}
+
+.laptoptab {
+	text-align: end;
+	margin-right: 30px;
+}
+
+.laptab {
+	text-align: end;
+	margin-right: 30px;
 }
 
 .dur {
-	margin-top: 40px;
-	margin-bottom: 60px;
+	margin-top: 10px;
+	margin-bottom: 56px;
 	text-align: center;
 }
 
-.watch {
-	height: 472px;
-	border-radius: 45px;
-	-webkit-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
-	-moz-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
-	box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+.acc {
+	max-width: 1440px;
+	display: flex;
+	gap: 27.5px;
+	margin-bottom: 74px;
+}
+
+.macpro:hover {
+	opacity: 0.7;
+}
+
+.macimg {
+	width: 247px;
+	height: 214px;
+	top: 28px;
+	left: 28px;
+	margin-bottom: 33px;
+}
+
+.title {
+	font-size: 22px;
+	line-height: 27.5px;
+	font-weight: 400;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.text {
+	font-size: 14px;
+	line-height: 16.8px;
+	font-weight: 400;
+	color: #4B4B4B;
+}
+
+.price {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #000000;
+	margin-top: 10px;
+}
+
+.Rectangle {
+	width: 1440px;
+}
+
+.see {
+	font-size: 42px;
+	line-height: 52.5px;
+	text-align: center;
+}
+
+.feet {
+	display: flex;
+	font-weight: 400;
+	gap: 28px;
+	text-align: center;
+}
+
+.block__items {
+	background-color: #F8F9FA;
+	border-radius: 16px;
+	margin-bottom: 76px;
+}
+
+.block__items:hover {
+	border: 1px solid black;
+	transition: 0.1s ease;
+}
+
+.smart {
+	margin-top: 41px;
+	margin-bottom: 5px;
+	font-size: 13px;
+	line-height: 16.8px;
+	font-weight: 400;
+}
+
+.best {
+	font-size: 28px;
+	line-height: 35px;
+}
+
+.watch1 {
+	width: 259px;
+}
+
+.watch2 {
+	width: 294px;
+}
+
+.watch3 {
+	width: 355px;
+}
+
+.frame {
+	display: flex;
+	margin-bottom: 74px;
+}
+
+.frame__text {
+	width: 600px;
+	padding-left: 35px;
+	padding-top: 14px;
+	font-size: 24px;
+	line-height: 30px;
+	padding-bottom: 25px;
+}
+
+.seeal {
+	font-size: 24px;
+	line-height: 28.8px;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	margin-bottom: 75px;
+}
+
+.input {
+	margin-left: 320px;
+	margin-bottom: 70px;
+	margin-top: 25px;
+}
+
+/* input::placeholder {
+	background: url('../img/10.svg') no-repeat;
+
+} */
+
+.form-control {
+	display: block;
+	width: 650px;
+	height: 60px;
+	border-radius: 100px;
+	background-color: #F8F9FA;
+}
+
+.buttons_box {
+	display: block;
+	margin-left: 350px;
+	margin-top: -50px;
+	width: 650px;
+	padding: 5px;
+	margin-bottom: 61px;
+}
+
+.Explorer {
+	height: 42px;
+	width: 90px;
+	left: 0px;
+	top: 0px;
+	border-radius: 200px;
+	border: 1px solid #C5C5C5;
+	margin: 2px;
+}
+
+.Explorer2 {
+	height: 42px;
+	width: 142px;
+	left: 0px;
+	top: 0px;
+	border-radius: 200px;
+	border: 1px solid #C5C5C5;
+	margin: 2px;
+}
+
+.block__footer {
+	padding: 8px;
+	margin-left: 200px;
+	background-color: #DCE5E2;
+	text-align: center;
+	width: 935px;
+	border-radius: 16px;
+	margin-bottom: 25px;
+}
+
+.sign {
+	margin-bottom: 10px;
+}
+
+
+.Your {
+	margin-top: 43px;
+	margin-bottom: 43px;
+	margin-left: 150px;
+
 }
