@@ -1,0 +1,303 @@
+/*!
+Theme Name: Minimog Child Demo
+Theme URI: https://minimog.thememove.com/
+Author: ThemeMove
+Author URI: https://thememove.com/
+Version: 1.0.0
+Template: minimog
+Text Domain: minimog
+Tags: editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+.close-quick-options {
+    display: none !important
+}
+
+.tm-demo-options-wrapper {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    background: #fff;
+    height: 100%;
+    width: 350px;
+    max-width: calc(100% - 50px);
+    z-index: 100000;
+    -webkit-transition: all .5s;
+    transition: all .5s
+}
+
+.tm-demo-options-wrapper.open {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    box-shadow: -3px 0 50px -2px rgba(0, 0, 0, .14)
+}
+
+.tm-demo-options-wrapper.open .close-quick-options {
+    display: block !important
+}
+
+.tm-demo-options-wrapper.open .open-quick-options {
+    display: none !important
+}
+
+.demo-option-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: .1em;
+    line-height: 1.4;
+    color: #000;
+    margin: 0
+}
+
+.demo-option-title mark {
+    font-weight: 700
+}
+
+.demo-option-desc {
+    margin: 10px 0 0
+}
+
+.tm-btn-purchase {
+    margin: 20px 0 0
+}
+
+.tm-demo-options-toolbar {
+    position: absolute;
+    top: 200px;
+    right: 100%;
+    display: block;
+    width: 40px;
+    line-height: 60px;
+    border: 1px solid #eee;
+    border-right: 0;
+    border-radius: 0;
+    background: #fff;
+    text-align: center;
+    box-shadow: -3px 0 10px -2px rgba(0, 0, 0, .1)
+}
+
+.tm-demo-options-toolbar a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #000
+}
+
+.tm-demo-options-toolbar a:focus,
+.tm-demo-options-toolbar a:hover {
+    color: #000 !important
+}
+
+.tm-demo-options-toolbar i {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1
+}
+
+.tm-demo-panel-header {
+    position: relative;
+    padding: 40px 30px;
+    text-align: center
+}
+
+.tm-demo-panel-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.tm-demo-panel {
+    position: relative;
+    overflow-y: auto;
+    height: 100%;
+    padding-bottom: 55px
+}
+
+.tm-demo-panel-body {
+    padding: 0 27px
+}
+
+.demo-option-filter-bar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 0 20px
+}
+
+.demo-option-filter-bar label {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    color: var(--minimog-color-heading);
+    font-weight: var(--minimog-typography-body-font-weight);
+    margin: 0 15px 0 0
+}
+
+.demo-option-filter-bar select {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    background-color: transparent !important;
+    background-position: 100%;
+    border: 0;
+    padding: 2px 0 0;
+    border-bottom: 2px solid #eee !important;
+    border-radius: 0;
+    min-height: 24px;
+    color: var(--minimog-color-heading);
+    font-weight: 700
+}
+
+.quick-option-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px
+}
+
+.quick-option-list a {
+    border-radius: 0
+}
+
+.quick-option-list img {
+    width: 100%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, .1);
+    border-radius: inherit
+}
+
+.quick-option-list img:hover {
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .2)
+}
+
+.quick-option-list h6 {
+    margin-top: 5px
+}
+
+.quick-option-list .hint--bounce:after {
+    min-width: 120px;
+    max-width: 160px;
+    text-align: center;
+    white-space: normal
+}
+
+.handheld .tm-demo-options-toolbar {
+    top: 150px
+}
+
+@media screen and (max-width:600px) {
+    .tm-demo-panel {
+        padding-bottom: 30px
+    }
+    .tm-demo-panel-header {
+        padding: 30px 15px 25px
+    }
+    .tm-demo-panel-body {
+        padding: 0 15px
+    }
+    .quick-option-list {
+        grid-gap: 15px
+    }
+    .quick-option-list img {
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1)
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #wp-admin-bar-new_draft {
+        display: none
+    }
+    #wpadminbar {
+        overflow: hidden
+    }
+}
+
+#page-ruler-toolbar input[type=number] {
+    height: 20px;
+    color: #fff !important;
+    background-color: transparent !important
+}
+
+#page-ruler-toolbar .page-ruler-px-container.page-ruler-px-container:after {
+    right: 15px !important;
+    color: #ccc !important
+}
+
+#page-ruler#page-ruler,
+#page-ruler-guides#page-ruler-guides {
+    z-index: 99999999 !important
+}
+
+.sale-special-intro-price {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    position: fixed;
+    bottom: 90px;
+    right: 0;
+    width: 180px;
+    z-index: 9999
+}
+
+.sale-special-intro-price.hidden {
+    opacity: 0;
+    visibility: hidden
+}
+
+#close-sale-special-intro-price {
+    width: 30px;
+    height: 30px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: #333;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 18px
+}
+
+body.mobile .sale-special-intro-price {
+    width: 100px
+}
+
+.page-scroll-up {
+    bottom: 90px !important;
+    right: 24px !important
+}
+
+@media (min-width:1400px) {
+    .sale-special-intro-price {
+        width: 240px
+    }
+}

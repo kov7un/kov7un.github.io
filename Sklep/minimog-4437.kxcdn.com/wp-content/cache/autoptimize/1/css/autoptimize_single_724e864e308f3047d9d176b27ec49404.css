@@ -1,0 +1,123 @@
+body:not(.rtl) .elementor-3280 .elementor-element.elementor-element-935abca>.elementor-column-gap-custom>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding-left: calc(7px/2);
+    padding-right: calc(7px/2)
+}
+
+body:not(.rtl) .elementor-3280 .elementor-element.elementor-element-935abca.elementor-section-gap-beside-no>.elementor-column-gap-custom>.elementor-row {
+    margin-left: calc(-7px/2);
+    margin-right: calc(-7px/2)
+}
+
+body.rtl .elementor-3280 .elementor-element.elementor-element-935abca>.elementor-column-gap-custom>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding-right: calc(7px/2);
+    padding-left: calc(7px/2)
+}
+
+body.rtl .elementor-3280 .elementor-element.elementor-element-935abca.elementor-section-gap-beside-no>.elementor-column-gap-custom>.elementor-row {
+    margin-right: calc(-7px/2);
+    margin-left: calc(-7px/2)
+}
+
+.elementor-3280 .elementor-element.elementor-element-935abca>.elementor-container>.elementor-row {
+    align-items: stretch
+}
+
+.elementor-3280 .elementor-element.elementor-element-faeb00b .link {
+    text-transform: capitalize
+}
+
+.elementor-3280 .elementor-element.elementor-element-ad4b207 .link {
+    text-transform: capitalize
+}
+
+.elementor-3280 .elementor-element.elementor-element-fd5838b .link {
+    text-transform: capitalize
+}
+
+body:not(.rtl) .elementor-3280 .elementor-element.elementor-element-f3fc015>.elementor-element-populated.elementor-element-populated {
+    padding: 0 7px 0 15px
+}
+
+body.rtl .elementor-3280 .elementor-element.elementor-element-f3fc015>.elementor-element-populated.elementor-element-populated {
+    padding: 0 15px 0 7px
+}
+
+.elementor-3280 .elementor-element.elementor-element-08214dc {
+    text-align: center
+}
+
+.elementor-3280 .elementor-element.elementor-element-08214dc .heading-primary {
+    font-size: 24px
+}
+
+.elementor-3280 .elementor-element.elementor-element-08214dc>.elementor-widget-container {
+    margin: 0 0 25px
+}
+
+.elementor-3280 .elementor-element.elementor-element-d8903ac .woocommerce-loop-product__title a {
+    color: #000
+}
+
+.elementor-3280 .elementor-element.elementor-element-d8903ac .woocommerce-loop-product__title a:hover {
+    color: #999
+}
+
+.elementor-3280 .elementor-element.elementor-element-d8903ac .tm-swiper {
+    --slides-view: 3;
+    --gutter: 20
+}
+
+.elementor-3280 .elementor-element.elementor-element-d8903ac .swiper-nav-buttons {
+    justify-content: space-between;
+    align-items: center
+}
+
+.elementor-3280 .elementor-element.elementor-element-d8903ac {
+    --swiper-pagination-direction: row;
+    --swiper-pagination-v-spacing: 0;
+    --swiper-pagination-h-spacing: var(--swiper-pagination-spacing);
+    --swiper-pagination-horizontal-align: center;
+    --swiper-pagination-margin-left: var(--swiper-pagination-h-offset);
+    --swiper-pagination-margin-right: 0;
+    --swiper-pagination-v-offset: 44px;
+    --swiper-pagination-vertical-align: flex-end;
+    --swiper-pagination-vertical-position: static;
+    --swiper-pagination-margin-top: var(--swiper-pagination-v-offset);
+    --swiper-pagination-margin-bottom: 0
+}
+
+@media(max-width:1199px) {
+    .elementor-3280 .elementor-element.elementor-element-d8903ac .tm-swiper {
+        --slides-view: 1
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-3280 .elementor-element.elementor-element-d8903ac .tm-swiper {
+        --slides-view: 1
+    }
+}
+
+@media(max-width:360px) {
+    .elementor-3280 .elementor-element.elementor-element-d8903ac .tm-swiper {
+        --slides-view: 1
+    }
+}
+
+@media(min-width:361px) {
+    .elementor-3280 .elementor-element.elementor-element-33639b1 {
+        width: 15%
+    }
+    .elementor-3280 .elementor-element.elementor-element-6f93ad4 {
+        width: 15%
+    }
+    .elementor-3280 .elementor-element.elementor-element-098e039 {
+        width: 15%
+    }
+    .elementor-3280 .elementor-element.elementor-element-10a8c8f {
+        width: 15%
+    }
+    .elementor-3280 .elementor-element.elementor-element-f3fc015 {
+        width: 40%
+    }
+}

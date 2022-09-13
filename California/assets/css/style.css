@@ -4,6 +4,7 @@ a {
 }
 
 .container {
+	min-width: 1410px;
 	width: 1440px;
 	font-family: 'Inter', sans-serif;
 }
