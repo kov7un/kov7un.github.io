@@ -44,6 +44,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	line-height: 1;
 	margin: 0 auto;
+	position: relative;
 }
 
 .wrapper {
@@ -54,6 +55,7 @@ body {
 	color: rgb(255, 255, 255);
 	height: 1085px;
 	background: url('../img/01.svg') 100% 100% no-repeat;
+	position: absolute;
 }
 
 
