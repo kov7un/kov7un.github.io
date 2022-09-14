@@ -13,12 +13,13 @@ li {
 a,
 a:visited {
 	text-decoration: none;
-	color: #fff;
+	color: rgb(0, 74, 172);
 }
 
 a:hover {
 	text-decoration: none;
-	opacity: 0.5;
+	opacity: 0.8;
+	color: #0000d3;
 }
 
 h1,
