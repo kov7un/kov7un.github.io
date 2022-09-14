@@ -13,13 +13,13 @@ li {
 a,
 a:visited {
 	text-decoration: none;
-	color: rgb(0, 74, 172);
+	color: rgb(255, 255, 255);
 }
 
 a:hover {
 	text-decoration: none;
 	opacity: 0.8;
-	color: #0000d3;
+	color: #3a3a96;
 }
 
 h1,
@@ -59,6 +59,9 @@ body {
 	position: absolute;
 }
 
+.container {
+	position: relative;
+}
 
 
 .header {
@@ -120,6 +123,20 @@ body {
 
 }
 
+.bthh {
+	margin-top: 40px;
+	width: 155px;
+	height: 51px;
+	background: #00D664;
+	border-radius: 28px;
+	font-size: 16px;
+	text-align: center;
+	justify-content: center;
+	color: #fff;
+	font-weight: 500;
+
+}
+
 .bth:hover {
 	background: #02b355;
 	border: 1px solid green;
@@ -159,7 +176,7 @@ body {
 }
 
 .Explore {
-	margin-top: 40px;
+	margin-top: 420px;
 	width: 216px;
 	height: 51px;
 	background-color: #00D664;
@@ -261,6 +278,7 @@ body {
 	height: 813px;
 	color: black;
 	text-align: center;
+	position: relative;
 }
 
 .h2 {
@@ -273,6 +291,7 @@ body {
 
 .box__content {
 	display: flex;
+	position: absolute;
 }
 
 .box {
