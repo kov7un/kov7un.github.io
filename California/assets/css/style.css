@@ -297,17 +297,16 @@ a {
 	margin-top: 25px;
 }
 
-/* input::placeholder {
-	background: url('../img/10.svg') no-repeat;
-
-} */
-
 .form-control {
 	display: block;
 	width: 650px;
 	height: 60px;
 	border-radius: 100px;
 	background-color: #F8F9FA;
+}
+
+.form-check-label {
+	color: #000000;
 }
 
 .buttons_box {
