@@ -1,0 +1,447 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html {
+	font-size: 16px;
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1;
+	margin: 0 auto;
+}
+
+.wrapper {
+	min-height: 100%;
+	font-family: 'Roboto', sans-serif;
+	max-width: 1920px;
+	gap: 10px;
+	color: rgb(250, 250, 250);
+	height: 1085px;
+	background: url('../img/01.svg') 100% 100% no-repeat;
+}
+
+
+
+.header {
+	display: flex;
+
+}
+
+.header__icon {
+	margin-top: 57px;
+	margin-left: 333px;
+	font-weight: 900;
+	font-size: 22px;
+	line-height: 17px;
+	letter-spacing: 0.8px;
+	margin-right: 91px;
+	text-transform: uppercase;
+}
+
+.header__mnu {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 17px;
+	margin-right: 45px;
+	margin-top: 57px;
+}
+
+.icon {
+	margin-top: 59px;
+	height: 11px;
+	margin-right: 30px;
+}
+
+.icon2 {
+	margin-top: 55px;
+	height: 17px;
+	width: 17px;
+	margin-right: 30px;
+}
+
+.icon3 {
+	margin-top: 55px;
+	height: 17px;
+	width: 17px;
+	margin-right: 30px;
+}
+
+.btn {
+	margin-top: 40px;
+	width: 155px;
+	height: 51px;
+	background: #00D664;
+	border-radius: 28px;
+	margin-right: 334px;
+	font-size: 16px;
+	text-align: center;
+	justify-content: center;
+	color: #fff;
+	font-weight: 500;
+}
+
+.main {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.title__up {
+	font-family: 'Mrs Saint Delafield', cursive;
+	margin-top: 406px;
+	height: 17px;
+	font-size: 58px;
+}
+
+.title {
+	margin-left: 579px;
+	width: 795px;
+	margin-top: 39px;
+	font-size: 60px;
+	letter-spacing: 2%;
+	font-weight: 500;
+	margin-bottom: 34px;
+}
+
+.subTitle {
+	width: 515px;
+	margin-left: 690px;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.Explore {
+	margin-top: 40px;
+	width: 216px;
+	height: 51px;
+	background-color: #00D664;
+	border-radius: 28px;
+	margin-left: 350px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 500;
+}
+
+.catheringNew {
+	color: #ACACAC;
+	font-size: 58px;
+	line-height: 27px;
+	font-family: 'Mrs Saint Delafield';
+	font-weight: 400;
+	margin-top: 400px;
+	margin-left: 350px;
+}
+
+.h1 {
+	font-size: 42px;
+	line-height: 58px;
+	color: #1E266D;
+	margin-left: 180px;
+	margin-top: 24px;
+	margin-bottom: 27px;
+}
+
+.subtitle {
+	color: #696969;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 3%;
+	width: 822px;
+	margin-left: 210px;
+	margin-bottom: 56px;
+}
+
+.passion {
+	display: flex;
+}
+
+.pass {
+	display: block;
+	padding: 0px 10px 0px 10px;
+}
+
+
+.passion__title {
+	color: #1E266D;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 36px;
+	width: 560px;
+	margin-top: 70px;
+	margin-bottom: 45px;
+}
+
+.passion__icon {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 60px;
+	margin-right: 30px;
+}
+
+.passion__body {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.passion_subtitle {
+	color: #1E266D;
+	font-size: 20px;
+	line-height: 44px;
+	font-weight: 500;
+	margin-top: 25px;
+	max-width: 370px;
+}
+
+.passion__text {
+	width: 369px;
+	color: #696969;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+
+/* ----------------------NYC--------------------- */
+.NYC {
+	background-color: #F7F4FB;
+	height: 813px;
+	color: black;
+	text-align: center;
+}
+
+.h2 {
+	padding-top: 165px;
+	font-size: 34px;
+	line-height: 58px;
+	text-align: center;
+	color: #1E266D;
+}
+
+.box__content {
+	display: flex;
+}
+
+.box {
+	width: 268px;
+	height: 292px;
+	background-color: #fff;
+	margin: 30px;
+}
+
+.box__icon {
+	margin-top: 40px;
+}
+
+.box__title {
+	color: #1E266D;
+	font-size: 20px;
+	line-height: 44px;
+	margin-bottom: 23px;
+
+}
+
+.box__text {
+	margin-bottom: 27px;
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #696969;
+}
+
+.box__footer {
+	color: #00D664;
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 500;
+	margin-bottom: 76px;
+}
+
+/* -----------------Chek out ---------------------- */
+.chek__out {
+	background: url('../img/03.svg') 100% 100% no-repeat;
+	width: 1920px;
+	height: 850px;
+	color: #fff;
+	text-align: center;
+}
+
+.chek__title {
+	padding-top: 129px;
+	margin-left: 551px;
+	width: 840px;
+	font-size: 34px;
+	line-height: 44px;
+	letter-spacing: 1%;
+}
+
+.chek__box {
+	width: 1286px;
+	height: 449px;
+	background-color: #fff;
+	border-radius: 20px;
+	margin-bottom: 108px;
+	margin-left: 318px;
+	margin-top: 53px;
+}
+
+.chek__head {
+	display: flex;
+	justify-content: space-evenly;
+	color: black;
+	border-bottom: 1px solid #696969;
+	width: 1247px;
+	margin-left: 20px;
+	padding-bottom: 24px;
+
+}
+
+.lunch {
+	margin-top: 30px;
+	margin-bottom: 23px;
+}
+
+.lunch:hover {
+	color: #4152ec;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+/* .lunch:hover {
+	border-bottom: 1px solid #00D664;
+	padding-bottom: 24px;
+} */
+.mnu_box {
+	padding-top: 51px;
+	display: flex;
+	margin-bottom: 97px;
+}
+
+.mnu__items {
+	display: flex;
+	flex-direction: row;
+	margin-left: 97px;
+	padding-top: 22px;
+}
+
+.mnu__icon {}
+
+.mnu__body {
+	margin-left: 18px;
+}
+
+.mnu__1 {
+	text-align: start;
+	color: #1E266D;
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: 500;
+	margin-bottom: 8px;
+}
+
+.mnu__2 {
+	color: #696969;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+.mnu__price {
+	color: #121212;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-left: 104px;
+}
+
+/* ---------------SWAY---------------- */
+.sway {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 97px;
+	padding-left: 152px;
+	background-color: #F5F6FE;
+
+}
+
+.we__know {}
+
+.we__title {
+	margin-top: 70px;
+	margin-bottom: 25px;
+	width: 507px;
+	color: #1E266D;
+	font-size: 34px;
+	line-height: 44px;
+	font-weight: 500;
+
+}
+
+.we__text {
+	width: 500px;
+	color: #7C7C7C;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 400;
+}
+
+.baton {
+	margin-top: 40px;
+	width: 155px;
+	height: 51px;
+	background: #00D664;
+	border: 1px solid black;
+	border-radius: 28px;
+	margin-right: 334px;
+	font-size: 16px;
+	text-align: center;
+	justify-content: center;
+	color: rgb(0, 0, 0);
+	font-weight: 500;
+}
+
+.baton:hover {
+	width: 155px;
+	height: 51px;
+	border: 1px solid black;
+	border-radius: 28px;
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+	font-weight: 500;
+}
