@@ -1,1 +1,124 @@
-@import url('/obnulenie.css');
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	line-height: 1;
+	font-size: 14px;
+	font-weight: 500;
+	height: 100%;
+	color: #252B42;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+
+}
+
+._container {
+	max-width: 1046px;
+	margin: 0 auto;
+	box-sizing: content-box;
+}
+
+.header {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 50;
+}
+
+.header__container {
+	display: flex;
+	min-height: 104px;
+	align-items: center;
+
+}
+
+.header__logo {
+	font-size: 24px;
+	font-weight: 700;
+	color: inherit;
+}
+
+.header__menu {
+	margin-left: 133px;
+}
+
+@media (max-width: 992px) {
+	.header__menu {
+		margin-left: 80px;
+	}
+}
+
+@media (max-width: 767px) {
+	.header__menu {
+		margin-left: 40px;
+	}
+}
+
+@media (max-width: 479px) {
+	.header__menu {
+		margin-left: 20px;
+	}
+
+	.menu__link {
+		font-size: 18px;
+	}
+
+	.header__container {
+		min-height: 70px;
+	}
+}
+
+.menu {
+	padding: 5px 0;
+}
+
+.menu__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu__item:not(:last-child) {
+	margin-right: 21px;
+}
+
+.menu__link {
+	color: #737373;
+	line-height: calc(24 / 14 * 100%);
+	font-weight: 600;
+
+}
