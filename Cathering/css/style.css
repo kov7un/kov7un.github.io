@@ -57,6 +57,7 @@ body {
 	height: 1085px;
 	background: url('../img/01.svg') 100% 100% no-repeat;
 	position: absolute;
+	overflow: hidden;
 }
 
 .container {

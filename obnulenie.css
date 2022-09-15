@@ -4,18 +4,16 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+	box-sizing: border-box;
 }
 
+ul,
+ol,
 li {
 	list-style: none;
 }
 
-a,
-a:visited {
-	text-decoration: none;
-}
-
-a:hover {
+a {
 	text-decoration: none;
 }
 
@@ -33,14 +31,12 @@ img {
 	vertical-align: top;
 }
 
-html {
+html,
+body {
+	line-height: 1;
 	font-size: 16px;
 	height: 100%;
-}
-
-body {
-	font-family: 'Roboto', sans-serif;
-	line-height: 1;
+	color: black;
 }
 
 .wrapper {
