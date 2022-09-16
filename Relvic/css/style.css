@@ -36,9 +36,9 @@ body {
 	height: 100%;
 	line-height: 1;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 500;
 	color: #252B42;
-	font-family: 'Montserrat';
+	font-family: Montserrat;
 }
 
 .wrapper {
@@ -82,25 +82,28 @@ body {
 }
 
 .header__menu {
-	margin-left: 133px;
+	margin: 0px 0px 0px 133px;
 }
 
 @media (max-width: 992px) {
 	.header__menu {
-		margin-left: 80px;
+		margin: 0px 0px 0px 80px;
 	}
+
 }
 
 @media (max-width: 767px) {
 	.header__menu {
-		margin-left: 40px;
+		margin: 0px 0px 0px 40px;
 	}
+
 }
 
 @media (max-width: 479px) {
 	.header__menu {
-		margin-left: 20px;
+		margin: 0px 0px 0px 20px;
 	}
+
 }
 
 .menu {
@@ -109,15 +112,16 @@ body {
 
 .menu__list {
 	flex-wrap: wrap;
+	display: flex;
 }
 
 .menu__item:not(:last-child) {
-	margin-right: 21px;
+	margin: 0px 21px 0px 0px;
 }
 
 .menu__link {
 	color: #737373;
-	line-height: calc(24 / 14 * 100%);
+	line-height: 171%;
 	font-weight: 600;
 
 }
@@ -134,7 +138,9 @@ body {
 	flex: 1 1 auto;
 }
 
-.page__main-block {}
+.page__main-block {
+	position: relative;
+}
 
 .main-block {}
 
@@ -142,19 +148,33 @@ body {
 
 ._container {}
 
-.main-block__body {}
+.main-block__body {
+	padding: 184px 0px 191px 0px;
+	position: relative;
+	z-index: 2;
+	max-width: 400px;
+}
 
-.main-block__title {}
+.main-block__body>*:not(:last-child) {
+	margin: 0 0 35px 0;
+}
 
-.main-block__text {}
+.main-block__title {
+	font-size: 58px;
+	line-height: 137%;
+	letter-spacing: 0.2px;
+	font-weight: 800;
+}
+
+.main-block__text {
+	color: #737373;
+	font-size: 20px;
+	line-height: 150%;
+}
 
 .ibg {
 	position: relative;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	object-fit: cover;
+
 }
 
 .ibg img {
@@ -166,11 +186,44 @@ body {
 	object-fit: cover;
 }
 
-.main-block__buttons {}
+.main-block__buttons {
+	display: inline-flex;
+}
 
-.main-block__button {}
+.main-block__button {
+	border-radius: 37px;
+	font-weight: 700;
+	line-height: 150%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 36px;
+	min-height: 48px;
+	letter-spacing: 0.2px;
+}
 
-.main-block__button-border {}
+.main-block__button:not(:last-child) {
+	margin: 0 10px 0 0;
+}
+
+.main-block__orange {
+	color: white;
+	background: #FF7B47;
+}
+
+.main-block__button-border {
+	color: #0D5C63;
+	border: 1px solid #0D5C63;
+}
+
+.main-block__image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
 
 /* -----------main---------------- */
 
