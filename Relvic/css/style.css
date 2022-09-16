@@ -33,21 +33,24 @@ img {
 
 html,
 body {
+	height: 100%;
 	line-height: 1;
 	font-size: 14px;
-	font-weight: 500;
-	height: 100%;
+	font-weight: 400;
 	color: #252B42;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat';
 }
 
 .wrapper {
 	min-height: 100%;
-
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 
-._container {
+.container {
 	max-width: 1046px;
+	padding: 0 15px;
 	margin: 0 auto;
 	box-sizing: content-box;
 }
@@ -64,7 +67,12 @@ body {
 	display: flex;
 	min-height: 104px;
 	align-items: center;
+}
 
+@media (max-width: 479px) {
+	.header__container {
+		min-height: 70px;
+	}
 }
 
 .header__logo {
@@ -114,3 +122,57 @@ body {
 	font-weight: 600;
 
 }
+
+@media (max-width: 479px) {
+	.menu__link {
+		font-size: 18px;
+	}
+}
+
+/* -----------main---------------- */
+
+.page {
+	flex: 1 1 auto;
+}
+
+.page__main-block {}
+
+.main-block {}
+
+.main-block__container {}
+
+._container {}
+
+.main-block__body {}
+
+.main-block__title {}
+
+.main-block__text {}
+
+.ibg {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+
+.ibg img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+
+.main-block__buttons {}
+
+.main-block__button {}
+
+.main-block__button-border {}
+
+/* -----------main---------------- */
+
+.footer {}
