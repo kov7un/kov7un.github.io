@@ -93,14 +93,6 @@ body {
 	.header__menu {
 		margin-left: 20px;
 	}
-
-	.menu__link {
-		font-size: 18px;
-	}
-
-	.header__container {
-		min-height: 70px;
-	}
 }
 
 .menu {
