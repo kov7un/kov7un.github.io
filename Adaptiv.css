@@ -1,0 +1,294 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	line-height: 1;
+	font-size: 16px;
+	height: 100%;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+_button {
+	background: #FF7B47;
+	border-radius: 37px;
+	color: white;
+	font-weight: 700;
+	line-height: 150%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 36px;
+	min-height: 48px;
+	letter-spacing: 0.2px;
+}
+
+/* -----------     АДАПТИВНЫЙ БЛОК С КАРТОЧКАМИ ------------------ */
+/*<section class="page__practice practice">
+<div class="practice__container container">
+	<div class="practice__header header-block">
+		<h2 class="header-block__title">Practice Advice</h2>
+		<div class="header-block__subtitle">Problems trying to resolve the conflict between <br>
+			the two major realms of Classical physics: Newtonian mechanics
+		</div>
+	</div>
+	<div class="practice__body">
+		<div class="practice__column">
+			<article class="practice__item item-practice">
+				<div class="item-practice__content">
+					<a href="#" class="item-practice__link">
+						<h4 class="item-practice__title">A single source of truth</h4>
+					</a>
+					<div class="item-practice__text">Newton thought that light was made up of particles, but then
+						it
+						was discovered
+					</div>
+				</div>
+				<a href="#" class="item-practice__image ibg">
+					<img src="./img/1.jpg" alt="A single source of truth">
+				</a>
+			</article>
+		</div>
+		<div class="practice__column">
+			<article class="practice__item item-practice">
+				<div class="item-practice__content">
+					<a href="#" class="item-practice__link">
+						<h4 class="item-practice__title">Fastest way to organize</h4>
+					</a>
+					<div class="item-practice__text">“Quantum mechanics” is the description of the behaviour of
+						matter
+					</div>
+				</div>
+				<a href="#" class="item-practice__image ibg">
+					<img src="./img/2.jpg" alt="Fastest way to organize">
+				</a>
+			</article>
+		</div>
+		<div class="practice__column">
+			<article class="practice__item item-practice">
+				<div class="item-practice__content">
+					<a href="#" class="item-practice__link">
+						<h4 class="item-practice__title">Fastest way to take action</h4>
+					</a>
+					<div class="item-practice__text">They describe a universe consisting of bodies moving
+					</div>
+				</div>
+				<a href="#" class="item-practice__image ibg">
+					<img src="./img/3.jpg" alt="Fastest way to take action">
+				</a>
+			</article>
+		</div>
+		<div class="practice__column">
+			<article class="practice__item item-practice">
+				<div class="item-practice__content">
+					<a href="#" class="item-practice__link">
+						<h4 class="item-practice__title">Work better together</h4>
+					</a>
+					<div class="item-practice__text">They finally obtained a consistent description of the
+						behaviour
+					</div>
+				</div>
+				<a href="#" class="item-practice__image ibg">
+					<img src="./img/4.jpg" alt="Work better together">
+				</a>
+			</article>
+		</div>
+	</div>
+</div>
+</section> */
+/* -----------     АДАПТИВНЫЙ БЛОК С КАРТОЧКАМИ ------------------ */
+/* ----------------------АДАПТИВНАЯ КАРТОЧКА------------------------------ */
+/* <div class="practice__column">
+<article class="practice__item item-practice">
+	<div class="item-practice__content">
+		<a href="#" class="item-practice__link">
+			<h4 class="item-practice__title">Work better together</h4>
+		</a>
+		<div class="item-practice__text">They finally obtained a consistent description of the
+			behaviour
+		</div>
+	</div>
+	<a href="#" class="item-practice__image ibg">
+		<img src="./img/4.jpg" alt="Work better together">
+	</a>
+</article>
+</div> */
+/* ----------------------АДАПТИВНАЯ КАРТОЧКА------------------------------ */
+/* ___________________________practice____________________________ */
+
+/* -----------------------------------Блок Header ----------------------------------------- */
+/* .header-block {
+	text-align: center;
+	letter-spacing: 0.2px;
+}
+
+.header-block__title {
+	font-size: 40px;
+	color: #252B42;
+	line-height: 142%;
+	font-weight: 700;
+}
+
+.header-block__title:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.header-block__subtitle {
+	font-size: 14px;
+	color: #737373;
+	line-height: 142%;
+}
+
+@media (max-width: 992px) {
+	.header-block__title {
+		font-size: 33px;
+	}
+}
+
+@media (max-width: 767px) {
+	.header-block__title {
+		font-size: 28px;
+	}
+} */
+/* -----------------------------------Блок Header -------------------------------- */
+
+
+/* .practice {
+	padding: 125px 0 80px 0;
+}
+
+@media (max-width: 993px) {
+	.practice {
+		padding: 40px 0 80px 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.practice {
+		padding: 0px 0 40px 0;
+	}
+}
+
+.practice__container {}
+
+
+.practice__header {
+	margin-bottom: 45px;
+}
+
+@media (max-width: 767px) {
+	.practice__header {
+		margin-bottom: 25px;
+	}
+}
+
+
+.practice__body {
+	margin: 0 -20px -30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.practice__column {
+	padding: 0 20px;
+	flex: 0 1 25%;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 1040px) {
+	.practice__column {
+		flex: 0 1 50%;
+	}
+}
+
+@media (max-width: 630px) {
+	.practice__column {
+		flex: 0 1 100%;
+	}
+}
+
+.practice__item {}
+
+.item-practice {
+	background-color: white;
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+
+}
+
+.item-practice__content {
+	padding: 30px;
+	flex: 1 1 auto;
+}
+
+.item-practice__link {
+	color: inherit;
+	display: inline-block;
+}
+
+.item-practice__link:hover {
+	text-decoration: underline;
+}
+
+.item-practice__link:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.item-practice__title {
+	letter-spacing: 0.1px;
+	font-size: 16px;
+	line-height: 150%;
+	font-weight: 700;
+}
+
+.item-practice__text {
+	color: #737373;
+	font-size: 14px;
+	line-height: 142%;
+}
+
+.item-practice__image {
+	padding-bottom: 60%;
+	display: block;
+} */
+
+
+/* ___________________________practice____________________________ */
