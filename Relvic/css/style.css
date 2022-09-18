@@ -288,7 +288,11 @@ body {
 
 .page__whoweare {}
 
-.page__clients {}
+.page__clients {
+	margin-bottom: 10px;
+}
+
+.page__subscribe {}
 
 /* ---------------------Общие--------- */
 .header-block {
@@ -774,15 +778,17 @@ body {
 
 .clients__items {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	min-width: 140px;
+
 }
 
 .clients__item {
 	padding: 8px 15px;
 	flex: 0 1 16.6667%;
 	text-align: center;
+	min-width: 140px;
 }
 
 .clients__item img {
@@ -790,6 +796,117 @@ body {
 }
 
 /* ___________________________Clients____________________________ */
+/* __________________________Subscribe____________________________ */
+
+
+.subscribe {
+	position: relative;
+	padding-bottom: 20px;
+}
+
+.subscribe::before {
+	content: "";
+	background: #252B42;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 77px;
+}
+
+.subscribe__container {}
+
+.subscribe__body {
+	margin: 0 30px;
+	padding: 30px 50px;
+	align-items: center;
+	background: #17213C;
+	border-radius: 2px;
+	position: relative;
+	z-index: 2;
+}
+
+@media (min-width: 1070px) {
+	.subscribe__body {
+		margin: 0 30px;
+	}
+}
+
+
+.subscribe__title {
+	flex: 0 1 50%;
+	color: white;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 133%;
+	letter-spacing: 0.1px;
+}
+
+@media (min-width: 810px) {
+	.subscribe__body {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+
+@media (max-width: 810px) {
+	.subscribe__title {
+		margin-bottom: 20px;
+		max-width: 266px;
+	}
+
+	.subscribe__body {
+		margin: 0 -15px;
+		padding: 20px 15px;
+	}
+}
+
+.subscribe__form {
+	flex: 0 1 50%;
+	display: flex;
+	align-items: center;
+}
+
+.subscribe__input {
+	width: 100%;
+	flex: 1 1 auto;
+	min-height: 58px;
+	padding: 0 20px;
+	border-right: 0;
+	background: #F9F9F9;
+	border: 1px solid #E6E6E6;
+	border-radius: 5px;
+	color: #737373;
+}
+
+.subscribe__input:focus {
+	color: black;
+}
+
+.subscribe__button {
+	background: linear-gradient(0deg, #FF7B47, #FF7B47),
+		linear-gradient(0deg, #E6E6E6, #E6E6E6);
+	background: #FF7B47;
+	border: 1px solid #E6E6E6;
+	border-radius: 0px 5px 5px 0px;
+	color: #FFFFFF;
+	display: flex;
+	min-height: 58px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 22px;
+
+}
+
+@media (max-width: 810px) {
+	.subscribe__button {
+		padding: 0 15px;
+	}
+}
+
+/* __________________________Subscribe____________________________ */
 /* -----------main---------------- */
 
 .footer {}
