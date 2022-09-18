@@ -775,7 +775,6 @@ body {
 .clients__items {
 	display: flex;
 	align-items: center;
-	flex-wrap: wrap;
 	justify-content: center;
 	min-width: 140px;
 }
