@@ -1,0 +1,65 @@
+@import url(/null.css);
+
+.container {
+	width: 1040px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(5, 51, 91, 0.775);
+
+}
+
+.header__block>* {
+	margin-bottom: 20px;
+	width: 90%;
+}
+
+.title {
+	color: rgb(255, 255, 255);
+	font-size: 32px;
+}
+
+.subtitle {
+	font-size: 22px;
+	color: rgba(49, 211, 152, 0.527);
+}
+
+.text {
+	font-size: 14px;
+	line-height: 18px;
+	color: rgb(85, 192, 181);
+	font-weight: 400;
+}
+
+.photo {
+	width: 200px;
+	border-radius: 60%;
+	display: inline-block;
+	margin-right: 70px;
+}
+
+/* -------------cont------------ */
+.contacts {}
+
+.container {}
+
+.contacts__block {
+	background-color: rgb(84, 84, 84);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.contacts__call {
+	display: flex;
+
+}
+
+.contacts__mail {}
+
+.contacts__phone {}
+
+.contacts__num {}

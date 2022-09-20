@@ -112,7 +112,8 @@ a {
 
 .items {
 	display: flex;
-	gap: 5px;
+	gap: 15px;
+
 }
 
 .laptop {
@@ -121,6 +122,7 @@ a {
 	-webkit-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 	box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
 }
 
 .laptopImg {
@@ -137,7 +139,6 @@ a {
 	display: block;
 	width: 192px;
 	margin-left: 250px;
-
 }
 
 .phone {
@@ -145,6 +146,8 @@ a {
 	-webkit-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 	box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+
 }
 
 .tabl {
@@ -152,10 +155,12 @@ a {
 	-webkit-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
 	box-shadow: -1px 5px 13px 9px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
 }
 
-.lapimg {
+.tabl .lapimg {
 	max-height: 360px;
+	padding: 20px 0 0 0;
 }
 
 .laptoptab {
