@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">Я шапка
+			<div class="shop"></div>
+			<form class="main__form form" action="#">
+				<input disabled id="username" autocomplete="off" name="username" type="text" class="form__input">
+				<div class="form__line">
+					<label for="username" class="form__label"></label>
+					<input id="username" value="" placeholder="Введите имя" autocomplete="off" name="username" type="text"
+						class="form__input">
+				</div>
+				<div class="form__line">
+					<div class="chekbox">
+						<input id="car" autocomplete="off" name="car" type="checkbox" class="chekbox__input">
+						<label for="car" class="chekbox__label">Автомобиль?</label>
+					</div>
+				</div>
+				<div class="form__line">
+					<div class="radiobuttons">
+						<div class="radiobuttons__item">
+							<input id="color_1" autocomplete="off" name="color" type="radio" class="radiobuttons__input">
+							<label for="color_1" class="radiobuttons__label">Зеленый?</label>
+							<input id="color_2" autocomplete="off" name="color" type="radio" class="radiobuttons__input">
+							<label for="color_2" class="radiobuttons__label">Красный?</label>
+						</div>
+						<div>
+							<input checked autocomplete="off" required name="gender" value="m" type="radio">М
+							<input autocomplete="off" required name="gender" value="f" type="radio">Ж
+						</div>
+						<div>
+							<input checked autocomplete="off" required name="color" value="red" type="radio">red
+							<input autocomplete="off" required name="color" value="blue" type="radio">blue
+						</div>
+					</div>
+				</div>
+				<!-- *----------------Файлы----------* -->
+				<button type="submit" class="form__button">отправить</button>
+				<input autocomplete="off" multiple accept=".jpg, .img" name="file" type="file" value="">
+				<input autocomplete="off" name="file" type="file" value="">
+				<input autocomplete="off" name="password" type="password" value="">
+			</form>
+			<!-- *---------------select--------* -->
+			<select name="select" class="sel">
+				<option value="1">Первый пункт</option>
+				<option value="2">второй пункт</option>
+				<option selected value="3">третий пункт</option>
+				<option value="4">Четвертый пункт</option>
+			</select>
+			<!-- *-------------------------area-* -->
+			<input autocomplete="off" name="password" type="text" value="" class="tables">
+			<input autocomplete="off" name="password" type="text" value="" class="tables">
+			<input autocomplete="off" name="password" type="text" value="" class="tables">
+			<input autocomplete="off" name="password" type="text" value="" class="tables">
+			<textarea name="text" id="area"></textarea>
+		</header>
+		<main class="main">
+			<div class="promise">
+				<div class="promise__container">
+					<div class="promise__header titles">
+						<div class="titles__label">OUR PROMISE TO YOU</div>
+						<h2 class="titles__item">Sed perspiciatis omnis iste natus</h2>
+					</div>
+					<div class="promise__items">
+						<div class="promise__item item-promise">
+							<img src="./img/dog_1.svg" class="item-promise__icon" alt="icon">
+							<div class="item-promise__body">
+								<div class="item-promise__title item-title">24/7 Love & Care</div>
+								<div class="item-promise__text item-text">At vero eos et accusamus et iusto odio dignissimos
+									ducimus qui
+									blanditiis praesentium corrupti quos dolores et quas.</div>
+							</div>
+						</div>
+						<div class="promise__item item-promise">
+							<img src="./img/dog_2.svg" class="item-promise__icon" alt="icon">
+							<div class="item-promise__body">
+								<div class="item-promise__title item-title">On-site Veterinarian</div>
+								<div class="item-promise__text item-text">Dolorem ipsum quia dolor sit amet, consectetur,
+									adipisci velit,
+									sed quia non numquam eius modi tempora incidunt.</div>
+							</div>
+						</div>
+						<div class="promise__item item-promise">
+							<img src="./img/dog_3.svg" class="item-promise__icon" alt="icon">
+							<div class="item-promise__body">
+								<div class="item-promise__title item-title">Live-stream Cameras</div>
+								<div class="item-promise__text item-text">Quis autem vel eum iure reprehenderit qui in ea
+									voluptate velit
+									esse quam nihil molestiae consequatur illum.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="services">
+				<div class="services__container">
+					<div class="services__header titles">
+						<div class="titles__label">Our Services</div>
+						<h2 class="titles__item">Sed perspiciatis omnis iste natus</h2>
+					</div>
+					<div class="services__items">
+						<div class="services__item">
+							<div class="item-services">
+								<div class="item-services__icon"><img src="./img/do_1.svg" alt=""></div>
+								<div class="item-services__title item-title">Pet Boarding (No Cages)</div>
+								<div class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos
+									ducimus qui
+									blanditiis praesentium corrupti quos dolores et quas.</div>
+								<a href="#" class="item-services__link">Я ссылка</a>
+							</div>
+						</div>
+						<div class="services__item">
+							<div class="item-services">
+								<div class="item-services__icon"><img src="./img/do_2.svg" alt=""></div>
+								<div class="item-services__title item-title">Pet Daycare</div>
+								<div class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos
+									ducimus qui blanditiis praesentium corrupti quos dolores et quasAt vero eos et accusamus et
+									iusto odio dignissimos
+									ducimus qui blanditiis praesentium corrupti quos dolores et quasAt vero eos et accusamus et
+									iusto odio dignissimos
+									ducimus qui blanditiis praesentium corrupti quos dolores et quas.</div>
+								<a href="#" class="item-services__link">Я ссылка</a>
+							</div>
+						</div>
+						<div class="services__item">
+							<div class="item-services">
+								<div class="item-services__icon"><img src="./img/do_3.svg" alt=""></div>
+								<div class="item-services__title item-title">Pet Day Spa & Grooming</div>
+								<div class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos
+									ducimus qui blanditiis praesentium corrupti quos dolores et quas.</div>
+								<a href="#" class="item-services__link">Я ссылка</a>
+							</div>
+						</div>
+						<div class="services__item">
+							<div class="item-services">
+								<div class="item-services__icon"><img src="./img/do_4.svg" alt=""></div>
+								<div class="item-services__title item-title">Custom Meal Plans</div>
+								<div class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos
+									ducimus qui blanditiis praesentium corrupti quos dolores et quas.</div>
+								<a href="#" class="item-services__link">Я ссылка</a>
+							</div>
+						</div>
+						<div class="services__item">
+							<div class="item-services">
+								<div class="item-services__icon"><img src="./img/do_5.svg" alt=""></div>
+								<div class="item-services__title item-title">Pet Training</div>
+								<div class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos
+									ducimus qui blanditiis praesentium corrupti quos dolores et quas.</div>
+								<a href="#" class="item-services__link">Я ссылка</a>
+							</div>
+						</div>
+						<div class="services__item">
+							<div class="item-services">
+								<div class="item-services__icon"><img src="./img/do_6.svg" alt=""></div>
+								<div class="item-services__title item-title">Shop Our Store!</div>
+								<div class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos
+									ducimus qui blanditiis praesentium corrupti quos dolores et quas.</div>
+								<a href="#" class="item-services__link">Я ссылка</a>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="services__button">Learn More</a>
+				</div>
+			</div>
+			<div class="impact">
+				<div class="impact__container">
+					<div class="impact__body">
+						<div class="impact__content">
+							<div class="impact__header titles">
+								<div class="titles__label titles__label-white">OUR IMPACT</div>
+								<h2 class="titles__item titles__item-white">Nemo enim ipsam voluptatem quia voluptas</h2>
+							</div>
+						</div>
+						<div class="impact__image"><img src="./img/god.svg" alt=""></div>
+					</div>
+					<div class="impact__items-fl">
+						<div class="impact__items">
+							<div class="impact__item">
+								<div class="impact__imag"><img src="./img/dog_f1.svg" alt=""></div>
+							</div>
+							<div class="impact__body-items">
+								<div class="impact__body-item">3,700</div>
+								<div class="impact__body-text">puppy baths</div>
+							</div>
+						</div>
+						<div class="impact__items">
+							<div class="impact__item">
+								<div class="impact__imag"><img src="./img/dog_f2.svg" alt=""></div>
+							</div>
+							<div class="impact__body-items">
+								<div class="impact__body-item">4,500</div>
+								<div class="impact__body-text">dogs boarded</div>
+							</div>
+						</div>
+						<div class="impact__items">
+							<div class="impact__item">
+								<div class="impact__imag"><img src="./img/dog_f3.svg" alt=""></div>
+							</div>
+							<div class="impact__body-items">
+								<div class="impact__body-item">2,900</div>
+								<div class="impact__body-text">pups trained</div>
+							</div>
+						</div>
+						<div class="impact__items">
+							<div class="impact__item">
+								<div class="impact__imag"><img src="./img/dog_f4.svg" alt=""></div>
+							</div>
+							<div class="impact__body-items">
+								<div class="impact__body-item">12k+</div>
+								<div class="impact__body-text">meals served</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- ------------two--------- -->
+
+			</div>
+
+	</div>
+	</main>
+	<footer class="footer">Я подвал</footer>
+	</div>
+</body>
+
+</html>
