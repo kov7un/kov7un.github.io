@@ -1,0 +1,407 @@
+body {
+	margin: 0 auto;
+	max-width: 1440px;
+	padding: 0;
+	background-color: rgb(240, 240, 240);
+}
+
+.wrapper {
+	background-color: #fff;
+}
+
+/* **********header********** */
+
+.header {
+	padding: 66px 55px;
+
+}
+
+.header__list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+/* *************main******* */
+.main {
+	height: 840px;
+	padding: 66px 55px;
+	background: url("../img/main/Rectangle.svg") 50% / contain no-repeat, url("../img/main/bg.jpg");
+}
+
+.title {
+	margin-top: 600px;
+	font-size: 40px;
+	line-height: 49px;
+	letter-spacing: 0.52px;
+	text-align: center;
+	font-weight: 700;
+	color: #202727;
+	margin-bottom: 100px;
+}
+
+
+.button {
+	display: block;
+	margin-top: 38px;
+	background-color: #193EE9;
+	max-width: 250px;
+	max-height: 50px;
+	color: white;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 700;
+	text-align: center;
+	padding: 12px 40px;
+	margin-left: 45%;
+	cursor: pointer;
+	transition: all 0.3s ease 0.1s;
+	border: none;
+	text-transform: uppercase;
+}
+
+.button:hover {
+
+	background-color: #607cfa;
+}
+
+img {
+	position: relative;
+	display: block;
+	top: 0;
+	left: -50px;
+}
+
+/* *************Bottle********** */
+.bottle {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #fff;
+}
+
+.bottle__body {
+	max-width: 247px;
+	margin-top: 238px;
+}
+
+.bottle__title {
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 700;
+	color: #202727;
+	margin-bottom: 50px;
+}
+
+.bottle__text {
+	color: #202727;
+	font-size: 16px;
+	line-height: 32px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.bottle__subtitle {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 26px;
+}
+
+.bottle__picture {
+	margin-bottom: 350px;
+}
+
+.bottle__picture img {
+	position: relative;
+	margin-top: -290px;
+	margin-left: 114px;
+}
+
+.bottle__picture::before {
+	position: relative;
+	background: #EAFCFC;
+	width: 440px;
+	height: 440px;
+	display: block;
+	content: "";
+	top: 240px;
+	left: 0;
+	border-radius: 50%;
+}
+
+
+.bottle__lists {
+	margin-top: 238px;
+}
+
+.bottle__list {
+	margin-bottom: 40px;
+}
+
+.bottle__li {
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: 700;
+	color: #202727;
+}
+
+.bottle__listed {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #202727;
+}
+
+/* ***********cont********* */
+.swear {
+	background-color: #9ecdcd;
+}
+
+.swear__title {
+	padding: 100px 375px;
+
+	font-size: 38px;
+	line-height: 52px;
+	align-items: center;
+	font-weight: 700;
+	color: #14C5C4;
+}
+
+.swear__contact {
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 92px;
+}
+
+.swear__item {
+	margin-bottom: 100px;
+}
+
+/* ************Elevate********* */
+.elevate {}
+
+.elevate__item {
+	display: flex;
+	margin: 120px 170px;
+}
+
+.elevate__body {
+	margin-top: 50px;
+	width: 313px;
+	margin-right: 130px;
+	margin-bottom: 40px;
+
+}
+
+.elevate__title {
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 700;
+	color: #202727;
+	margin-bottom: 40px;
+}
+
+.elevate__text {
+	color: #202727;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+	margin-bottom: 30px;
+}
+
+.elevate__sub {
+	font-size: 700px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #202727;
+}
+
+.elevate__img {}
+
+.elevate__cards {
+	display: flex;
+	justify-content: space-between;
+	flex: 0 0 33.333%;
+	margin: -50px 170px;
+	margin-bottom: 130px;
+}
+
+.elevate__card {}
+
+.card {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+	margin-top: -50px;
+}
+
+.vector {
+	margin-top: 30px;
+	position: relative;
+	display: inline;
+	top: 0;
+	left: 580px;
+}
+
+/* *********adapt------ */
+.adapt {}
+
+.adapt__body {}
+
+.adaptiv {
+	margin-left: 50px;
+}
+
+.vector {}
+
+.adapt__herb {
+	width: 316px;
+	margin-left: 100px;
+	margin-top: -100px;
+}
+
+.adapt__title {
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 700;
+	color: #202727;
+}
+
+.adapt__text {
+	margin-top: 36px;
+	margin-bottom: 60px;
+	color: #202727;
+	font-size: 16px;
+	line-height: 32px;
+	font-weight: 400;
+}
+
+.adapt__sub {
+	color: #202727;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+}
+
+.adapt__flowers {
+	display: flex;
+	position: relative;
+	text-align: center;
+	left: 640px;
+	top: -175px;
+}
+
+.flowers {
+	margin-right: 22px;
+}
+
+.adapt__flower {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+}
+
+.meta {
+	background: url("../img/metta/Rectangle.png");
+	background-size: cover;
+	height: 650px;
+	width: 1440px;
+	position: relative;
+	margin-bottom: 30px;
+
+}
+
+.meta__title {
+	position: relative;
+	width: 420px;
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 700;
+	color: #14C5C4;
+	position: relative;
+	top: 410px;
+	left: 820px;
+}
+
+.meta__text {
+	position: relative;
+	top: 430px;
+	left: 820px;
+	font-size: 18px;
+	line-height: 29px;
+	font-weight: 900;
+	color: #202727;
+}
+
+/* ********about******** */
+.about {
+	margin-bottom: 40px;
+	margin-top: 120px;
+}
+
+.about__body {
+	display: flex;
+	margin-left: 80px;
+}
+
+.about__items {
+	flex: 0 0 24%;
+
+}
+
+.about__image {}
+
+.about__text {
+	position: relative;
+	top: -40px;
+	left: -25px;
+	border: 1px solid white;
+	background-color: white;
+	padding: 10px;
+	display: flex;
+	text-align: start;
+	max-width: 290px;
+}
+
+.ever {
+	font-size: 16px;
+	line-height: 26px;
+	width: 300px;
+	position: relative;
+	left: 25%;
+}
+
+.block__lower {
+	margin-top: 80px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.drink {
+	margin-left: 50px;
+}
+
+.block__water {
+	margin-top: 45px;
+	margin-bottom: 60px;
+	display: flex;
+	flex: 0 0 25%;
+	margin-left: 50px;
+}
+
+.fun {
+	color: #14C5C4;
+	font-size: 32px;
+	line-height: 45px;
+	text-align: center;
+	background: #03f3f3 url("../img/bot.png");
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
+	background-size: auto auto;
+	padding: 60px 631px;
+}
+
+a {
+	text-decoration: none;
+}

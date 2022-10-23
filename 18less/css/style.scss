@@ -1,0 +1,169 @@
+@import "_mixins";
+
+@import "_null.scss";
+
+/*-----------*/
+$main: rgb(0, 209, 0);
+
+
+
+/*-----------*/
+
+
+/* *-№1 -* */
+@media (max-width: 1140px) {
+	[class*="__container"] {
+		max-width: 970px;
+	}
+
+}
+
+/* *-№2 -* */
+@media (max-width: 991.98px) {
+	[class*="__container"] {
+		max-width: 750px;
+	}
+
+}
+
+/* *-№3 -* */
+@media (max-width: 767.98px) {
+	[class*="__container"] {
+		//max-width: none;
+	}
+
+}
+
+.block {
+
+	// .block__container
+	&__container {}
+
+	// .block__items
+	&__items {
+		display: flex;
+		flex-wrap: wrap;
+		row-gap: 30px;
+		margin: 0 -15px;
+
+	}
+
+	// .block__item
+	&__item {
+		padding: 0 15px;
+		flex: 1 1 33.333%;
+		min-width: 290px;
+
+	}
+}
+
+.item-block {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+
+
+	@media (min-width: 1140px) {
+		max-width: 350px;
+	}
+
+	// .item-block__picture
+	&__picture {
+		padding-bottom: 74.286%;
+
+	}
+
+	// .item-block__image
+	&__image {}
+
+	// .item-block__body
+	&__body {
+		padding: 15px;
+		display: flex;
+		flex-direction: column;
+		background: #777;
+		flex: 1 1 auto;
+
+
+		*:not(:last-child) {}
+	}
+
+	// .item-block__title
+	&__title {
+		font-size: 25px;
+		color: white;
+	}
+
+	// .item-block__text
+	&__text {
+		line-height: 1.5;
+		flex: 1 1 auto;
+		color: rgb(196, 196, 196);
+	}
+
+	&__stars {
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: space-between;
+		margin: 0 24px 24px 0;
+	}
+
+	&__star {}
+
+	// .item-block__button
+	&__button {
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		width: 100px;
+		height: 40px;
+		background-color: #34C759;
+		color: #252525;
+		font-size: 10px;
+		line-height: 4;
+		text-align: center;
+		font-weight: 900;
+		border-radius: 20px;
+
+		&:hover {
+			background-color: rgb(223, 223, 0);
+		}
+
+		//можно добавить ПЕРЕД ТЕГОМ ЕЩЕ ТЕГ И БУДЕТ ВЛОЖЕНОСТЬ ПРИМЕР
+		//.touch & { background-color: red; }
+
+	}
+}
+
+.list {
+	padding: 30px;
+
+	&__item {
+		transform: translate(-100%, 0px);
+		transition: 0.4s;
+
+		@for $var from 1 to 5 {
+			$delay: 0.1 * $var;
+
+			&:nth-child(#{$var}) {
+				transition-delay: $delay + s;
+			}
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 15px;
+		}
+	}
+
+	&__link {
+		color: white;
+	}
+
+	&:hover {
+		.list__item {
+			transform: translate(0px, 0px);
+		}
+	}
+}

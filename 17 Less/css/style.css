@@ -1,0 +1,21 @@
+@import url('/null.css');
+
+
+.block {
+	background-color: rgb(89, 27, 4);
+	padding: 20px 0;
+}
+
+.block__container {}
+
+.block__items {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.block__item {
+	min-width: 150px;
+	flex: 1 1 33.333%;
+	border: 1px solid rgb(255, 255, 255);
+	background-color: green;
+}
